@@ -1,9 +1,26 @@
 {
-  "name": "demo-repo",
+  "name": "default-repository",
   "version": "0.2.0",
   "description": "A sample package.json",
+  "keywords": [
+    "elparadisogonzalo.com"
+  ],
+  "homepage": "https://github.com/elparadisogonzalo-com/default-repository#readme",
+  "bugs": {
+    "url": "https://github.com/elparadisogonzalo-com/default-repository/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elparadisogonzalo-com/default-repository.git"
+  },
+  "license": "MIT",
+  "author": "elparadiso",
+  "type": "express",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm start"
+  },
   "dependencies": {
     "@primer/css": "17.0.1"
-  },
-  "license": "MIT"
+  }
 }
