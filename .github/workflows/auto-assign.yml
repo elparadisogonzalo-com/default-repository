@@ -6,7 +6,7 @@ on:
     types: [opened]
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     permissions:
       issues: write
       pull-requests: write
@@ -16,4 +16,4 @@ jobs:
       with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: azehagowa-creator
-          numOfAssignee: 1
+          numOfAssignee: 500
